@@ -24,12 +24,6 @@ A real-time soccer player and ball tracking system using **YOLOv5** for object d
 
 ---
 
-## 🖼️ Example Outputs
-
-| Detection + Tracking | Heatmap | Voronoi |
-|----------------------|---------|---------|
-| ![Tracking](assets/tracking_demo.gif) | ![Heatmap](assets/heatmap.png) | ![Voronoi](assets/voronoi.png) |
-
 ---
 
 ## 🚀 How It Works
@@ -74,7 +68,6 @@ This project performs real-time soccer player tracking using YOLOv5 for detectio
 - `tracking/track.py`: Main script
 - `yolov5/`: YOLOv5 repo (cloned)
 - `test.mp4`: Input video
-- `tracking_data.csv`: Output CSV with tracking results
 >>>>>>> ade8588 (commit)
 
 ## Setup
