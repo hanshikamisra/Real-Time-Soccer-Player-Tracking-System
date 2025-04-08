@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
+=======
+# Python cache files
+>>>>>>> ade8588 (commit)
 __pycache__/
 *.py[cod]
 *$py.class
 
+<<<<<<< HEAD
 # C extensions
 *.so
 
@@ -169,3 +174,28 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+=======
+# Distribution/packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+
+# Output and data directories
+output/
+data/
+
+# YOLOv5 weights
+*.pt
+
+# Jupyter notebooks
+.ipynb_checkpoints
+>>>>>>> ade8588 (commit)

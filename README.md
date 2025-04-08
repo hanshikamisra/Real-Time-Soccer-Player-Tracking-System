@@ -64,6 +64,18 @@ A real-time soccer player and ball tracking system using **YOLOv5** for object d
 
 ## 📁 Directory Structure
 
+=======
+# Soccer Tracking with YOLOv5 + DeepSORT
+
+This project performs real-time soccer player tracking using YOLOv5 for detection and DeepSORT for tracking. It processes a video and outputs tracking results in a CSV.
+
+## Project Structure
+
+- `tracking/track.py`: Main script
+- `yolov5/`: YOLOv5 repo (cloned)
+- `test.mp4`: Input video
+- `tracking_data.csv`: Output CSV with tracking results
+>>>>>>> ade8588 (commit)
 
 ## Setup
 
@@ -73,5 +85,8 @@ A real-time soccer player and ball tracking system using **YOLOv5** for object d
    cd Soccer_tracking
    python -m venv venv
    venv\Scripts\activate  # on Windows
+<<<<<<< HEAD
 
    
+=======
+>>>>>>> ade8588 (commit)
